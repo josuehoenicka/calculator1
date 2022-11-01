@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+button {
+    margin-top: 2em;
+    padding: 1em;
+    width: 15vw;
+    border-radius: 2em;
+    font-size: 1.4em;
+    background-color: gray;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+}
+
+#mcmMCD {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 50vw;
+    padding: 1em;
+    font-size: 1.3em;
+    border: none;   
+    color: black;
+}
+
+#MCD, #mcm {
+    font-size: 2em;
+}
+
+

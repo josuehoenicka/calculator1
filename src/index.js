@@ -36,7 +36,7 @@ for(var i = 0; i < input.length; i++) {
 
 // ahora ya podemos usar el método 'apply' con nuestras funciones MCD y mcm
 document.getElementById('MCD').innerText = 'MCD: ' +  MCD.apply(window, numbers);
-document.getElementById('MCM').innerText = 'MCM: ' +  mcm.apply(window, numbers);
+document.getElementById('mcm').innerText = 'mcm: ' +  mcm.apply(window, numbers);
 
 // también lo puedes usar en la cónsola.
 console.log('MCD:', MCD.apply(window, numbers));
