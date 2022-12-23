@@ -59,6 +59,7 @@ input:focus {
     border: none; 
     background-color: transparent;  
     color: #aaaaaa;
+    outline: none;
     border-bottom: 0.2em #666666 solid;
 }  
 
