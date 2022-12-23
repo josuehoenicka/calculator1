@@ -11,22 +11,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #222222;
     color: white;
 }
 
 button {
     margin-top: 2em;
     padding: 1em;
-    width: 15vw;
+    width: 25vw;
     border-radius: 2em;
-    font-size: 1.4em;
-    background-color: gray;
+    font-size: 1.5em;
+    background-color: rgb(230,230,230);
+    opacity: 0.5;
+    border: none;
 }
 
 button:hover {
     cursor: pointer;
     background-color: white;
+    opacity: 1;
     transition: 0.5s;
 }
 
@@ -38,12 +41,26 @@ button:hover {
 }
 
 input {
-    width: 50vw;
+    width: 60vw;
+    text-align: center;
     padding: 1em;
-    font-size: 1.3em;
-    border: none;   
-    color: black;
-}
+    font-size: 1.5em;
+    border: none; 
+    background-color: transparent;  
+    color: #666666;
+    border-bottom: 0.2em #666666 solid;
+}  
+
+input:focus {
+    width: 60vw;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.5em;
+    border: none; 
+    background-color: transparent;  
+    color: #aaaaaa;
+    border-bottom: 0.2em #666666 solid;
+}  
 
 #MCD, #mcm {
     font-size: 2em;
